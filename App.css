@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  
+}
+.container h1{
+  color: #1a5590;
+}
+.card{
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+.card img{
+  height: 70%;
+}
+.card div{
+  height: 30%;
+}
+.card-title{
+  color: teal;
+}
+.card-text{
+  color: coral;
+}
+.card :hover{
+  transform: scale(1.1);
+
+}
